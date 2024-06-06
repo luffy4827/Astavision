@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 * {
-    @apply transition-colors duration-700 ease-linear;
+    @apply transition-colors duration-500 ease-linear;
 }
 
 body {
