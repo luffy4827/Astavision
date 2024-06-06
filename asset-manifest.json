@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Astavision/static/css/main.ba9c5bec.css",
+    "main.js": "/Astavision/static/js/main.c8b81c1d.js",
+    "index.html": "/Astavision/index.html",
+    "main.ba9c5bec.css.map": "/Astavision/static/css/main.ba9c5bec.css.map",
+    "main.c8b81c1d.js.map": "/Astavision/static/js/main.c8b81c1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba9c5bec.css",
+    "static/js/main.c8b81c1d.js"
+  ]
+}
