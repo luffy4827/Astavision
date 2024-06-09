@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Astavision/static/css/main.df262b02.css",
-    "main.js": "/Astavision/static/js/main.047aacae.js",
+    "main.css": "/Astavision/static/css/main.d82a6698.css",
+    "main.js": "/Astavision/static/js/main.0de03d47.js",
     "index.html": "/Astavision/index.html",
-    "main.df262b02.css.map": "/Astavision/static/css/main.df262b02.css.map",
-    "main.047aacae.js.map": "/Astavision/static/js/main.047aacae.js.map"
+    "main.d82a6698.css.map": "/Astavision/static/css/main.d82a6698.css.map",
+    "main.0de03d47.js.map": "/Astavision/static/js/main.0de03d47.js.map"
   },
   "entrypoints": [
-    "static/css/main.df262b02.css",
-    "static/js/main.047aacae.js"
+    "static/css/main.d82a6698.css",
+    "static/js/main.0de03d47.js"
   ]
 }
