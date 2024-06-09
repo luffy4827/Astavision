@@ -6,7 +6,7 @@ const Contact = () => {
       <div class="py-8 lg:py-16 px-5 mx-auto max-w-screen-md">
         <div className="md:flex md:flex-col mb-5 md:justify-center md:items-center">
           <h1 className="text-4xl md:text-center text-blue-500">Contact</h1>
-          <hr className="w-28 h-1 rounded-lg bg-blue-400" />
+          <hr className="w-28 h-1 rounded-lg bg-blue-400 border-none" />
         </div>
         <p class="mb-8 lg:mb-16 font-light text-justify  dark:text-white">
           Have a question or inquiry? Get in touch with Astavision Infosys

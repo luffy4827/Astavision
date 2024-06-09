@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Features = () => {
   return (
@@ -8,7 +9,7 @@ const Features = () => {
         <div className="sm:w-3/4 lg:w-9/12 mx-auto px-2 text-justify">
           <div className="md:flex md:flex-col mb-5 md:justify-center md:items-center">
             <h1 className="text-3xl md:text-center text-blue-500">Services</h1>
-            <hr className="w-28 h-1 rounded-lg bg-blue-400" />
+            <hr className="w-28 h-1 rounded-lg bg-blue-400 border-none" />
             </div>
           <p className="mt-4">
             Astavision Infosys is dedicated to making IT services quick and easy
@@ -42,7 +43,9 @@ const Features = () => {
                 type="button"
                 className="btn bg-blue-500 hover:bg-blue-600 text-white my-8 border-none"
               >
+                <Link to="career" spy={true} smooth={true} offset={-100} duration={700}>
                 More Info
+                </Link>
               </button>
             </div>
           </div>
@@ -91,7 +94,9 @@ const Features = () => {
                 type="button"
                 className="btn bg-blue-500 hover:bg-blue-600 text-white my-8 border-none"
               >
+                <Link to="career" spy={true} smooth={true} offset={-100} duration={700}>
                 More Info
+                </Link>
               </button>
             </div>
           </div>
@@ -140,7 +145,9 @@ const Features = () => {
                 type="button"
                 className="btn bg-blue-500 hover:bg-blue-600 text-white my-8 border-none"
               >
+                <Link to="career" spy={true} smooth={true} offset={-100} duration={700}>
                 More Info
+                </Link>
               </button>
             </div>
           </div>

@@ -41,27 +41,27 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <Link to="hero" spy={true} smooth={true} offset={-100} duration={500} >
+        <Link to="hero" spy={true} smooth={true} offset={-100} duration={700} >
           Home
         </Link>
       </li>
       <li>
-        <Link to="services" spy={true} smooth={true} offset={-100} duration={500}>
+        <Link to="services" spy={true} smooth={true} offset={-100} duration={700}>
           Services
         </Link>
       </li>
       <li>
-        <Link to="about" spy={true} smooth={true} offset={-100} duration={500}>
+        <Link to="about" spy={true} smooth={true} offset={-100} duration={700}>
           About
         </Link>
       </li>
       <li>
-        <Link to="career" spy={true} smooth={true} offset={-100} duration={500}>
+        <Link to="career" spy={true} smooth={true} offset={-100} duration={700}>
           Career
         </Link>
       </li>
       <li>
-        <Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>
+        <Link to="contact" spy={true} smooth={true} offset={-100} duration={700}>
           Contact
         </Link>
       </li>
@@ -70,9 +70,9 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-[100vw] container mx-auto md:px-20 px-4 bg-white text-black dark:bg-slate-800 dark:text-white sticky top-0 left-0 right-0 z-50 ${
+      className={`w-full container mx-auto md:px-20 px-4 bg-white text-black dark:bg-slate-800 dark:text-white sticky top-0 left-0 right-0 z-50 ${
         sticky
-          ? "sticky-navbar shadow-md bg-base-200 duration-200 transition-all ease-in-out"
+          ? "shadow-md bg-base-200 duration-200 transition-all ease-in-out"
           : ""
       }`}
     >

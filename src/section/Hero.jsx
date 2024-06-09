@@ -6,10 +6,10 @@ const Hero = () => {
       id="hero"
       className="container mx-auto flex flex-col bg-white dark:bg-slate-900 text-black dark:text-white xl:flex-row justify-center min-h-screen px-4 lg:px-14 gap-4 lg:gap-11 overflow-hidden"
     >
-      <div className="relative order-2 md:order-1 xl:w-2/5 w-full p-5 lg:p-0 flex flex-col justify-center items-start leading-8 z-50">
+      <div className="relative order-2 md:order-1 xl:w-2/5 w-full p-5 lg:p-0 flex flex-col justify-center items-start leading-8 z-10">
         <p className="text-xl text-blue-500 -mb-2">Astavision Infosys</p>
         <h1 className="mt-4 text-4xl md:text-6xl font-bold leading-tight md:leading-[80px]">
-          <span className="relative z-10 pr-2 xl:bg-white xl:whitespace-nowrap dark:bg-transparent">
+          <span className="relative z-10 pr-2 xl:bg-white xl:whitespace-nowrap dark:bg-slate-900">
             TRANSFORMING CHALLENGES
           </span>
           <br />
