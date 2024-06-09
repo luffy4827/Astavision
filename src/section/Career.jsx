@@ -4,7 +4,7 @@ import Card from "../components/Card";
 
 const Career = () => {
   return (
-    <div className="bg-[#f7f7f7] dark:bg-slate-900 py-10" id="career">
+    <div className="bg-[#f7f7f7] dark:bg-slate-900 text-black dark:text-white py-10" id="career">
         <div className="sm:w-3/4 lg:w-7/12 mb-12 mx-auto px-5 text-justify">
           <div className="md:flex md:flex-col mb-5 md:justify-center md:items-center">
             <h1 className="text-4xl md:text-center text-blue-500">Career</h1>

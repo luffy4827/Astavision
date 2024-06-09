@@ -12,7 +12,7 @@ const Card = ({ imgURL, label, subtext }) => {
       <figure className="bg-gray-300 overflow-hidden">
         <img src={imgURL} alt="photos" className="w-full h-64 object-cover" />
       </figure>
-      <div className="card-body">
+      <div className="card-body bg-gray-200 text-black dark:bg-slate-600 dark:text-white">
         <h2 className="card-title">{label}</h2>
         <p>
           {showFullText ? subtext : `${subtext.substring(0, 110)}...`}

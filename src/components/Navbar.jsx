@@ -70,9 +70,9 @@ const Navbar = () => {
 
   return (
     <div
-      className={`max-w-screen-2xl container mx-auto md:px-20 px-4 dark:bg-slate-800 dark:text-white sticky top-0 left-0 right-0 z-50 ${
+      className={`w-[100vw] container mx-auto md:px-20 px-4 bg-white text-black dark:bg-slate-800 dark:text-white sticky top-0 left-0 right-0 z-50 ${
         sticky
-          ? "sticky-navbar shadow-md bg-base-200 duration-300 transition-all ease-in-out"
+          ? "sticky-navbar shadow-md bg-base-200 duration-200 transition-all ease-in-out"
           : ""
       }`}
     >

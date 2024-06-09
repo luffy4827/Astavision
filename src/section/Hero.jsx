@@ -4,34 +4,27 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="w-full  flex xl:flex-row flex-col lg:px-14 justify-center min-h-screen gap-2 lg:gap-10 container "
+      className="container mx-auto flex flex-col bg-white dark:bg-slate-900 text-black dark:text-white xl:flex-row justify-center min-h-screen px-4 lg:px-14 gap-4 lg:gap-11 overflow-hidden"
     >
-      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full lg:ml-2 p-5 leading-8 order-2 md:order-1">
-        <p className="text-xl text-blue-500 -mb-7 ">Astavision Infosys</p>
-
-        <h1 className="mt-10 text-[45px] md:text-6xl whitespace-pre-wrap  leading-[45px] md:leading-[80px] font-bold">
-          <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10 dark:bg-transparent">
+      <div className="relative order-2 md:order-1 xl:w-2/5 w-full p-5 lg:p-0 flex flex-col justify-center items-start leading-8 z-50">
+        <p className="text-xl text-blue-500 -mb-2">Astavision Infosys</p>
+        <h1 className="mt-4 text-4xl md:text-6xl font-bold leading-tight md:leading-[80px]">
+          <span className="relative z-10 pr-2 xl:bg-white xl:whitespace-nowrap dark:bg-transparent">
             TRANSFORMING CHALLENGES
           </span>
           <br />
-          <span className="text-[45px] md:text-6xl ">INTO </span>
-          <span className="text-blue-500 mt-3">OPPORTUNITIES</span>{" "}
+          <span>INTO </span>
+          <span className="text-blue-500">OPPORTUNITIES</span>
         </h1>
-        <p className=" text-slate-gray text-base md:text-lg mt-4 mb-14 sm:max-w-sm">
+        <p className="text-base md:text-lg text-slate-gray mt-4 sm:max-w-sm">
           Crafting Innovative Software Solutions for a Smarter Tomorrow.
         </p>
-
-        {/* <Button label="Shop now" iconURL={arrowRight} /> */}
       </div>
-      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen bg-cover bg-center  order-1">
+      <div className="relative order-1 flex-1 flex justify-center items-center bg-cover bg-center xl:min-h-screen overflow-hidden">
         <img
-          src={
-            "https://images.pexels.com/photos/3861942/pexels-photo-3861942.jpeg?auto=compress&cs=tinysrgb&w=600"
-          }
-          alt=""
-          width={710}
-          height={102}
-          className="object-cover object-top relative max-h-svh "
+          src="https://images.pexels.com/photos/3861942/pexels-photo-3861942.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="Hero Images"
+          className="relative object-cover object-center w-full h-full max-h-screen"
         />
       </div>
     </section>

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="p-5 lg:px-24  dark:bg-slate-900 " id="about">
+    <div className="p-5 lg:px-24 bg-white text-black dark:text-white  dark:bg-slate-900 " id="about">
       <div id="about" class="relative overflow-hidden mt-5 lg:mt-20">
         <div class="max-w-7xl">
           <div class="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
