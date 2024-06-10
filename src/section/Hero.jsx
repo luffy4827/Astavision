@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="container mx-auto flex flex-col bg-white dark:bg-slate-900 text-black dark:text-white xl:flex-row justify-center min-h-screen px-4 lg:px-14 gap-4 lg:gap-11 overflow-hidden"
+      className="container mx-auto flex flex-col bg-white dark:bg-slate-900 text-black dark:text-white xl:flex-row justify-center min-h-screen px-4 lg:px-24 gap-4 lg:gap-11 overflow-hidden"
     >
       <div className="relative order-2 md:order-1 xl:w-2/5 w-full p-5 lg:p-0 flex flex-col justify-center items-start leading-8 z-10">
         <p className="text-xl text-blue-500 -mb-2">Astavision Infosys</p>

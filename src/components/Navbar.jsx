@@ -70,7 +70,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-full container mx-auto md:px-20 px-4 bg-white text-black dark:bg-slate-800 dark:text-white sticky top-0 left-0 right-0 z-50 ${
+      className={`w-full mx-auto md:px-20 px-4 bg-white text-black dark:bg-slate-800 dark:text-white sticky top-0 left-0 right-0 z-50 ${
         sticky
           ? "shadow-md bg-base-200 duration-200 transition-all ease-in-out"
           : ""
